@@ -4,12 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <groupId>S1897.java.redis</groupId>
-    <artifactId>redis</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>java-redis</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>redis-source</module>
-    </modules>
 
     <dependencies>
         <dependency>
