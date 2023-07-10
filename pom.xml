@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>nosql-redis</module>
-        <module>mosql-mongodb</module>
+        <module>nosql-mongodb</module>
     </modules>
 
     <dependencies>
