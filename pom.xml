@@ -10,6 +10,7 @@
     <modules>
         <module>nosql-redis</module>
         <module>nosql-mongodb</module>
+        <module>nosql-zookeeper</module>
     </modules>
 
     <dependencies>
