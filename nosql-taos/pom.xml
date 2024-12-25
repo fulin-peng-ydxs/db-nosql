@@ -12,4 +12,14 @@
     <groupId>S1897.java.spring</groupId>
     <artifactId>nosql-taos</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.taosdata.jdbc</groupId>
+            <artifactId>taos-jdbcdriver</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+
+    </dependencies>
+
 </project>
