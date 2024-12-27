@@ -21,7 +21,7 @@ public class WebsocketConnection {
         // String jdbcUrl =
         // "jdbc:TAOS-WS://localhost:6041/dbName?user=root&password=taosdata";
         // if you want to connect a specified database named "dbName".
-        String jdbcUrl = "jdbc:TAOS-WS://localhost:6041?user=root&password=taosdata";
+        String jdbcUrl = "jdbc:TAOS-WS://10.100.101.104:6041?user=root&password=taosdata";
         Properties connProps = new Properties();
         connProps.setProperty(TSDBDriver.PROPERTY_KEY_ENABLE_AUTO_RECONNECT, "true");
         connProps.setProperty(TSDBDriver.PROPERTY_KEY_CHARSET, "UTF-8");

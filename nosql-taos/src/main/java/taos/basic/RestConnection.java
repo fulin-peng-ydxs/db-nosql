@@ -14,7 +14,7 @@ import java.sql.SQLException;
 public class RestConnection {
 
     public static void main(String[] args) throws Exception {
-        String jdbcUrl = "jdbc:TAOS-RS://localhost:6041?user=root&password=taosdata";
+        String jdbcUrl = "jdbc:TAOS-RS://10.100.101.104:6041?user=root&password=taosdata";
         try (Connection conn = DriverManager.getConnection(jdbcUrl)) {
             System.out.println("Connected to " + jdbcUrl + " successfully.");
 
