@@ -17,7 +17,7 @@ public class BasicConnection {
 
     public static void main(String[] args) throws Exception {
         // use
-        String jdbcUrl = "jdbc:TAOS://localhost:6030?user=root&password=taosdata";
+        String jdbcUrl = "jdbc:TAOS://10.100.101.104:6030?user=root&password=taosdata";
         Properties connProps = new Properties();
         connProps.setProperty(TSDBDriver.PROPERTY_KEY_CHARSET, "UTF-8");
         connProps.setProperty(TSDBDriver.PROPERTY_KEY_LOCALE, "en_US.UTF-8");
